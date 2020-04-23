@@ -28,13 +28,40 @@
 
         // reto Piramide 
 
-        var simbolo = "*"
-        var linea = " "
-        var i = 0
+        // var simbolo = "*"
+        // var linea = " "
+        // var i = 0
 
 
-        for(var i=1 ; 1<=10; i++){
+        // for(var i=1 ; 1<=10; i++){
 
-            console.log(i)
+        //     console.log(i)
  
-         }
+        //  }
+
+
+
+
+
+        //  Sintaxis de la sentencia while.
+
+
+
+        //   while (condición) {
+        //     // bloque a ejecutar mientras la condición sea verdadera
+        //   }
+
+
+
+
+        console.log('Comienzo del programa');
+
+        var contador = 0;
+        
+        while (contador <= 10) {
+        console.log('La variable contador es igual a: ' + contador);
+        contador++;
+        
+    }
+
+       console.log('Final del programa');

@@ -10,64 +10,64 @@
 
 // //  ejemplo  de querySelector con el selector de clases
 
-//         var encabezado
+          var encabezado
 
-//         encabezado = document.querySelector("#encabezado");
+          encabezado = document.querySelector("#encabezado");
 
 // // Estilos
 
 
-//       encabezado.style.background = "black";
-//       encabezado.style.color= "yellow";
-//       encabezado.style.padding = "50px";
-//       encabezado.textContent = "Bienvenido a mis cursos";
+         encabezado.style.background = "black";
+         encabezado.style.color= "yellow";
+         encabezado.style.padding = "50px";
+         encabezado.textContent = "Bienvenido a mis cursos";
 
 
 // // diferencia entre querySelector y getElementById
 
-//      encabezado = document.querySelector(".encabezado");
+      encabezado = document.querySelector(".encabezado");
 
-//      encabezado.style.background = "blue";
-//      encabezado.style.color= "yellow";
-//      encabezado.style.padding = "50px";
-//      encabezado.textContent = "Bienvenido a mis cursos";
-
-
-//      encabezado= document.querySelector("h1");
-
-//      encabezado.style.background = "red";
+       encabezado.style.background = "blue";
+       encabezado.style.color= "yellow";
+       encabezado.style.padding = "50px";
+       encabezado.textContent = "Bienvenido a mi divertidos  cursos";
 
 
-// // querySelestor te devuelve el primer elemento o/y clase que encuentre en caso de tener multiples elementos y clases
+      encabezado= document.querySelector("h1");
+
+       encabezado.style.background = "red";
 
 
-//       encabezado= document.querySelector("img");
-//       // encabezado= document.querySelectorAll("img");
-//       encabezado= document.querySelector(".enlace");
-//       // encabezado= document.querySelectorAll(".enlace");
+//  querySelestor te devuelve el primer elemento o/y clase que encuentre en caso de tener multiples elementos y clases
+
+
+        encabezado= document.querySelector("img");
+        encabezado= document.querySelectorAll("img");
+        encabezado= document.querySelector(".enlace");
+         encabezado= document.querySelectorAll(".enlace");
 
 
    
 
-// //      console.log(encabezado);
+        // console.log(encabezado);
 
       
 
 
-//       //  sitaxis del css3  es === sintaxis de querySelector 
+        //  sitaxis del css3  es === sintaxis de querySelector 
 
 
-//    var enlace;
+         var enlace;
 
-//         enlace = document.querySelector(".card img");
+         enlace = document.querySelector(".card img");
          
-//         enlace = document.querySelector("#principal a:first-child");
-//         enlace = document.querySelector("#principal a:last-child")
-//       //   enlace = document.querySelector("#principal a:nth-child(3)");
+        enlace = document.querySelector("#principal a:first-child");
+        enlace = document.querySelector("#principal a:last-child")
+        enlace = document.querySelector("#principal a:nth-child(3)");
       
 
 
-//          console.log(enlace);
+        //  console.log(enlace);
 
 
 
@@ -75,19 +75,19 @@
 
 
 
-//       var All ;
+        var All ;
 
-//          All = document.querySelectorAll("#principal a:nth-child(3)") //  odd even
+         All = document.querySelectorAll("#principal a:nth-child(n)") //  odd even n 
 
 
       
 
+          All.forEach(function(imapares) {
 
-//          All.forEach(function(imapares) {
-
-//             imapares.style.backgroundColor= "red"
-
-//           });
+            imapares.style.backgroundColor= "red"
 
 
-//          console.log(All);
+           });
+
+
+         console.log(All);

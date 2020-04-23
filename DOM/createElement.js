@@ -1,50 +1,53 @@
 // // createElement
 
 
-// // var enlace = document.createElement("a");
+//  var enlace = document.createElement("a");
 
 
-// // // agregamos una clase
-// // enlace.className = "enlace";
+// //  agregamos una clase
 
-// // //añadimos id
+//  enlace.className = "enlace";
 
-// // enlace.id = "enlace";
+// //añadimos id
 
-// // // añadimos atributos
+//  enlace.id = "enlace";
 
-// // enlace.setAttribute("href", "http")
+// //  añadimos atributos
 
-// // //añadimostexto
+//  enlace.setAttribute("href", "http")
 
-// // enlace.textContent = "Nuevo enlace"
+// //añadimostexto
 
-// // // agregar al html donde queremos agregarlo
+//  enlace.textContent = "Nuevo enlace"
 
-// // document.querySelector("#secundaria").appendChild(enlace);
+// //  agregar al html donde queremos agregarlo
 
-// // console.log(enlace);
+//    document.querySelector("#secundaria").appendChild(enlace);
 
-
-
-
-// // eliminando nodos
+//    console.log(enlace);
 
 
 
-// var enlaces = document.querySelectorAll(".enlace");
+
+//  eliminando nodos
 
 
-// //  enlaces[0].remove();
+//  var enlaces = document.querySelectorAll(".enlace");
 
 
-//  console.log(enlaces);
-
-// // eliminando desde el nodo padre contenedor padre 
-
-// var navegacion = document.querySelector("#principal");
-
-// //  navegacion.removeChild(enlaces[3])
+//   enlaces[0].remove();
 
 
-// console.log(navegacion);
+//   console.log(enlaces);
+
+// eliminando desde el nodo padre contenedor padre 
+
+//  var navegacion = document.querySelector("#principal");
+
+//   navegacion.removeChild(enlace[3]);
+
+
+//   console.log(navegacion);
+
+
+// replaceChild

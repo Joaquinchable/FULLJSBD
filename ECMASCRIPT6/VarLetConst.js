@@ -26,20 +26,20 @@
 // El problema de var (Scope)
 
 
-var nombre = 'Joaquin';
+// var nombre = 'Joaquin';     // global
 
 
-if(nombre) {
-    //  var nombre = 'Pedro';
-    //  let nombre = "Juan";
-   console.log(nombre, ' dentro del IF');
-}
+// if(nombre) {
+//      //var nombre = 'Pedro';
+//       let nombre = "Juan";     // local global depende mucho contexto de desarrollo 
+//    console.log(nombre, ' dentro del IF');
+// }
 
-console.log(nombre, ' fuera del IF');
+// console.log(nombre, ' fuera del IF');
 
 
 
-// Notarás que en ambos casos se imprime el valor de ‘Pedro’, 
+// Notarás que en ambos casos se imprime el valor de ‘pedro’, 
 // si bien da la impresión de que estamos reescribiendo la variable nombre
 //  ( o creando una nueva variable) puedes notar que la que esta fuera del if (considerado un Scope Global)
 //   también muestra el valor de la que esta dentro, esto hacia que muchos desarrolladores que venian 
@@ -63,42 +63,42 @@ console.log(nombre, ' fuera del IF');
 
 
 
-let frutas;
+  let frutas;
 
-frutas = ['MANZANA', 'MANGO']; // la variable productos ya tendrá valores
+   frutas = ['MANZANA', 'MANGO']; // la variable productos ya tendrá valores
 
-
-console.log(frutas)
+    console.log(frutas)
 
 
 // se puede re-asignar un valor 
 
-// let edad = 18;
-// edad = 19; // el valor ha sido re-asignado
+   let edad = 18;
+    edad = 19; // el valor ha sido re-asignado
 
 
-// console.log(edad)
+   console.log(edad)
 
 
 // si var y let son muy similares ¿En qué se diferencían? El Scope.
 
 
 
- var nombre1 = 'Joaquin'; // global 
-
-//  let nombre1 = 'Joaquin';   // ejemplo si declaramos la variable con let
-
-
+     var nombre1 = 'Joaquin'; // global 
+  
+   // let nombre1 = 'Joaquin';   // ejemplo si declaramos la variable con let
 
 
 
-// primer contexto de ejecucion
 
-if(nombre1) {
-    //   var nombre1 = 'Pedro';    // contradicion y error
-      let nombre1 = "Juan";         
-   console.log(nombre1, ' dentro del primer contexto de ejecucion');
-}
+
+
+// // primer contexto de ejecucion
+
+    if(nombre1) {
+         // var nombre1 = 'Pedro';    // contradicion y error
+         let nombre1 = "Juan";         
+    console.log(nombre1, ' dentro del primer contexto de ejecucion');
+  }
 
 
 
@@ -106,14 +106,14 @@ if(nombre1) {
 
 // segundo contexto de ejecucion
 
-if(nombre1) {
+   if(nombre1) {
        
-console.log(nombre1, ' dentro del IF en otro contexto de ejecucion');
+   console.log(nombre1, ' dentro del IF en otro contexto de ejecucion');
 
-}
+  }
 
 
-// let su Scope  es local y var Scope es global 
+// let su Scope  es local y tabien el global  y var Scope es global y no local 
 
 
 
@@ -125,34 +125,34 @@ console.log(nombre1, ' dentro del IF en otro contexto de ejecucion');
 // una variable con const debe tener un valor al ser creada:
 
 
-const nombre2 = 'Juan'; // Es necesario agregar un valor
+ const nombre2 = 'Juan'; // Es necesario agregar un valor
 
 
-// const frutas; // error
+//  const frutas; // error
 
 
 
 // No se pueden re-asignar los valores.
 
 
-// const edad = 18;
-// edad = 19;
+//  const edad2 = 18;
+//    edad2 = 19;
 
 
 
-// console.log(edad)
+//  console.log(edad2)
 
 
 
-const nombre3 = "joaquin";
+  const nombre3 = "joaquin";
 
-if(nombre3) {
+ if(nombre3) {
             
-   console.log(nombre3, ' dentro del primer contexto de ejecucion');
-}
+      console.log(nombre3, ' dentro del primer contexto de ejecucion');
+ }
 
 
-console.log(nombre3)
+ console.log(nombre3)
 
 
 // su Scope es global pero no puede ser reasignado tiene que un variable que nunca cambie
@@ -162,4 +162,7 @@ console.log(nombre3)
 
 
 // EScribe las diferencias entre var , let y const ::RETO
+
+
+
 

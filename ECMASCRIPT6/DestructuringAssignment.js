@@ -12,9 +12,9 @@
 
 const direccion = [221, 'Roma Norte', 'Mexico'];
 
-const [ numeroCasa, , ciudad ] = direccion;
+const [ numeroCasa, colonia , ciudad ] = direccion;
 
-console.log(numeroCasa, ciudad)  //  221 'Mexico'
+console.log(numeroCasa, colonia, ciudad)  //  221 'Mexico'
 
 
 // la destructuración en objetos es muy simliar, sólo que el nombre de la
@@ -24,8 +24,13 @@ console.log(numeroCasa, ciudad)  //  221 'Mexico'
 const estudiante = {
    nombre: 'Joaquin',
    apellido: 'Chable',
-   pais: 'Mexico' };
+   pais: 'Mexico' ,
+   materia: "programacion" }
 
-const { nombre, apellido, pais } = estudiante;
+const { nombre, apellido, pais , materia } = estudiante;
 
-console.log(nombre, apellido, pais); 
+console.log(nombre, apellido, pais , materia); 
+
+
+
+// RETO crear dos ejemplos de cada una arrays y Object

@@ -11,20 +11,22 @@
 
 
 
-const array = [1, 2];
-const array2 = [...array, 3, 4];
-console.log(array2) // [1, 2, 3, 4] 
+// const array = [1, 2];
+// const array2 = [...array, 3, 4];
+
+
+// console.log(array2) // [1, 2, 3, 4] 
 
 
 
-const numeros = [1, 2, 3, 4, 5,];
-const otrosnuermos = [ 6, 7, 8, 9, 10];
-const string = ["brocoli", "papa ", "zanahoria", "manzana ", "peluches" ]
+   const numeros = [1, 2, 3, 4, 5,];
+  const otrosnuermos = [ 6, 7, 8, 9, 10];
+   const string = ["brocoli", "papa ", "zanahoria", "manzana ", "peluches" ]
 
-console.log(numeros.concat(otrosnuermos))
+//   console.log(numeros.concat(otrosnuermos))
 
-// console.log([...numeros, ...otrosnuermos, ...string]) 
-// console.log([...numeros, ...otrosnuermos, 11, 12, ...string ," hola a todos"])
+//  console.log([...numeros, ...otrosnuermos, ...string]) 
+ console.log([...numeros, ...otrosnuermos, 11, 12, ...string ," hola a todos"])
 
 
 
@@ -34,31 +36,33 @@ console.log(numeros.concat(otrosnuermos))
 // contenta otro objeto. Observa el siguiente ejemplo.
 
 
-// const obj1 = {a: 'a', b: 'b'};
-// const obj2 = {c: 'c', ...obj1};
+   const obj1 = {a: 'a', b: 'b'};
+   const obj2 = {c: 'c', ...obj1};
 
-// console.log(obj2) 
-
-
-// const user = {
-//       name: "joaquin",
-//       apellido: "chable"
-// }
+   console.log(obj2) 
 
 
-// const userContact = {
+// reto
 
-//   mail:"joaquin@gmail.com",
-//   faceBook:"joako"
-
-
-// }
-
-// // const fullUser =  Object.assign({}, user, userContact)
-// const fullUser =  {...user, ...userContact, mail:"otromail@outlook.com"}
+ const user = {
+       name: "joaquin",
+       apellido: "chable"
+ }
 
 
-// console.log(fullUser)
+ const userContact = {
+
+     mail:"joaquin@gmail.com",
+     faceBook:"joako"
+
+
+ }
+
+//   const fullUser =  Object.assign({}, user, userContact)
+    const fullUser =  {...user, ...userContact, mail:"otromail@outlook.com"}
+
+
+ console.log(fullUser)
 
 
 

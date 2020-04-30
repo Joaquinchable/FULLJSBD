@@ -16,35 +16,35 @@
 // puede establecer una alternativa, aunque su uso es opcional.
 
 
-// La sintaxis de esta estructura es la siguiente:
+// // La sintaxis de esta estructura es la siguiente:
 
-// if(condicion){
-
-
-// ...enunciados a ejecutar si se cumple la condicion
-
-// }else{
-
-//     …enunciados a ejecutar si NO se cumple la condición…
-// }
+//    if(condicion){
 
 
+// // ...enunciados a ejecutar si se cumple la condicion
 
-// var edad = prompt("¿Cuál es tu edad?");
+//  }else{
 
-// if  (edad > 18 ){
-
-//     document.write("Puedes entrar a la party");
-
-// }else if ( edad == 18 ){
-
-//     document.write("Puedes Entrar a la fiesta ");
-// } else{
-//     document.write("Tienes menos de 18 años lo siento no puedes pasar vete a tu casa");
-// }
+// //    …enunciados a ejecutar si NO se cumple la condición…
+//  }
 
 
-// Reto crear un sistema de condicion If ... else
+
+//  var edad = prompt("¿Cuál es tu edad?");
+
+//  if  (edad > 18 ){
+
+//       document.write("Puedes entrar a la party");
+
+//   }else if ( edad == 18 ){                            // puedo declarar de esta manera las condiciones que yo quiera
+
+//       document.write("Puedes Entrar a la fiesta ");
+//   } else{
+//      document.write("Tienes menos de 18 años lo siento no puedes pasar vete a tu casa");
+//  }
+
+
+// // Reto crear un sistema de condicion If ... else
 
 
  // Se pueden concatenar tantos else if como se quiera, pero cuando se 
@@ -61,27 +61,27 @@
 // Por medio de switch se puede listar una serie de bloques
 //  de enunciados que se ejecuten dependiendo del valor de una variable.
 
-// La sintaxis sería:
+// // La sintaxis sería:
 
 
-// switch (variable){
+//    switch (variable){
 
-//     case(valor1):
-//     …enunciados a ejecutar para ese valor…
-//     break;
-//     case(valor2):
-//     …enunciados a ejecutar para ese valor…
-//     break;
-//     case(valor3):
-//     …enunciados a ejecutar para ese valor…
-//     break;
+//       case(valor1):
+// //     …enunciados a ejecutar para ese valor…
+//        break;
+//       case(valor2):
+// //     …enunciados a ejecutar para ese valor…
+//       break;
+//       case(valor3):
+// //     …enunciados a ejecutar para ese valor…
+//       break;
 
-//     default:
-//     …enunciados a ejecutar cuando el valor no 
-//     coincida con ninguno de los anteriores…
-//             break;
+//        default:
+// //     …enunciados a ejecutar cuando el valor no 
+// //     coincida con ninguno de los anteriores…
+//              break;
 
-// }
+//  }
 
 
 // break indica que el bloque de código puede dejar de interpretarse cuando se haya dado una coincidencia.
@@ -97,28 +97,28 @@
  
  
  
-//  switch (GeneroMusical) {
+//    switch (GeneroMusical) {
 
 
-//     case "Banda":
-//     document.write('No eres de los mios');
-//     break;
+//       case "Banda":
+//       document.write('No eres de los mios');
+//       break;
 
-//     case "Rock":
-//     document.write('Eres CHIDO');
-//     break;
+//        case "Rock":
+//        document.write('Eres CHIDO');
+//        break;
 
-//     case "Indie":
-//     document.write('Eres RaRO');
-//      break;
+//       case "Indie":
+//       document.write('Eres RaRO');
+//        break;
 
-//     case "Merengue":
-//     document.write('BAilarin');
-//     break;
+//       case "Merengue":
+//       document.write('BAilarin');
+//       break;
 
-//     default:
-//     document.write('No sabes de musica');
-//     break;
+//       default:
+//       document.write('No sabes de musica');
+//       break;
 
 //  }
 
@@ -127,21 +127,24 @@
 
 
 
-  var Frutas = prompt(" a como kilo de ? ")
+   var Frutas = prompt(" a como kilo de ? ")
 
- switch(Frutas) {
-    case "Platano":
-     document.write(" el kilo cuesta  10 pesos")
+    switch(Frutas) {
+       case "Platano":
+       document.write(" el kilo cuesta  10 pesos")
        break;
-    case "Naranja":
+
+       case "Naranja":
        document.write(" el kilo cuesta  50 pesos")
-         break;
-    case "Manzana":
-       document.write(" el kilo cuesta  30 pesos")
-         break;
-    default:
-       document.write(" no hay esa fruta ")
        break;
+
+      case "Manzana":
+        document.write(" el kilo cuesta  30 pesos")
+      break;
+
+     default:
+       document.write(" lo sentimos no tenemos esa fruta ")
+      break;
 }
 
 

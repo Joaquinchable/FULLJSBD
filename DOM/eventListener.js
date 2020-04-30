@@ -4,15 +4,15 @@
 // // click al buscador 
 
 
-//   document.querySelector("button").addEventListener("click", bontonClick)
+   document.querySelector("button").addEventListener("click", bontonClick)
 
 
 
 
-//  function bontonClick() {
+    function bontonClick() {
 
-//      alert("buscando cursos");
-//  };
+        alert("buscando cursos");
+    };
 
 
 
